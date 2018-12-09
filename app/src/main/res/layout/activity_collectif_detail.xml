@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manu.lilleadvisor.CollectifDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOM DU COLLECTIF : "
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <TextView
+            android:id="@+id/fieldNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VILLE : "
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <TextView
+            android:id="@+id/fieldVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION :"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <TextView
+            android:id="@+id/fieldDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

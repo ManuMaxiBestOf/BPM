@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "273447287763",
+    "firebase_url": "https://lilleadvisor-be01d.firebaseio.com",
+    "project_id": "lilleadvisor-be01d",
+    "storage_bucket": "lilleadvisor-be01d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273447287763:android:b354972e79320505",
+        "android_client_info": {
+          "package_name": "com.example.manu.lilleadvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273447287763-rkmjh9caivas7g7r5ogsbv3up8r8m6l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manu.lilleadvisor",
+            "certificate_hash": "7188776a335488edad779e8fd6cce2c12b1fb6e2"
+          }
+        },
+        {
+          "client_id": "273447287763-suolmc882hknnhke6qse8ois04ukrduh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZoW9wKpGiWtRR6FAYuWWhDZ6jFuKv_28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273447287763-suolmc882hknnhke6qse8ois04ukrduh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

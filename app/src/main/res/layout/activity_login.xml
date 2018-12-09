@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manu.lilleadvisor.LoginActivity">
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_evenements_logo_imgbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email_field"
+        android:layout_below="@+id/email_field"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Login" />
+
+
+
+    <ImageButton
+        android:id="@+id/activity_evenements_logo_imgbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/login_btn"
+        android:layout_alignParentTop="true"
+        android:onClick="logo_acceuilEvenements"
+        android:src="@drawable/logo_acceuil" />
+
+</RelativeLayout>

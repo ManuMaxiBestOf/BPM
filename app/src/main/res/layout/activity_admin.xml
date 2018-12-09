@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manu.lilleadvisor.AdminActivity">
+
+    <Button
+        android:id="@+id/ajoutevenement_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ajoutmusic_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp"
+        android:text="Ajouter Un Evenement" />
+
+    <Button
+        android:id="@+id/ajoutcollectif_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activity_evenements_logo_imgbtn"
+        android:layout_marginTop="111dp"
+        android:text="Ajouter Un Collectif" />
+
+    <Button
+        android:id="@+id/ajoutmusic_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ajoutcollectif_btn"
+        android:text="Ajouter Une Music" />
+
+    <Button
+        android:id="@+id/supevent_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/supmusic_btn"
+        android:layout_alignParentStart="true"
+        android:text="Supprimer Un evenement" />
+
+    <Button
+        android:id="@+id/supcollectif_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp"
+        android:text="Supprimer un collectif" />
+
+    <Button
+        android:id="@+id/supmusic_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/supcollectif_btn"
+        android:layout_alignParentStart="true"
+        android:text="Supprimer Une Music" />
+
+    <ImageButton
+        android:id="@+id/activity_evenements_logo_imgbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="logo_acceuilEvenements"
+        android:src="@drawable/logo_acceuil" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_evenements_logo_imgbtn"
+        android:layout_centerHorizontal="true"
+        android:text="Logout" />
+
+</RelativeLayout>

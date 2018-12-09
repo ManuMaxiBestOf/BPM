@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manu.lilleadvisor.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/layout_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/activity_main_song_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:padding="0dp"
+            android:text="musique" />
+
+        <Button
+            android:id="@+id/activity_main_evenements_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="0dp"
+            android:text="evenement" />
+
+        <Button
+            android:id="@+id/activity_main_collectifs_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="0dp"
+            android:text="collectifs" />
+
+        <Button
+            android:id="@+id/activity_main_carte_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="0dp"
+            android:text="carte" />
+
+        <Button
+            android:id="@+id/activity_main_admin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="0dp"
+            android:text="admin" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_marginStart="67dp"
+            android:contentDescription="@string/todo"
+            android:onClick="logo_main_fb"
+            android:src="@drawable/logo_fb" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:contentDescription="@string/todo"
+            android:onClick="logo_acceuil_site"
+            android:src="@drawable/logo_acceuil" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
